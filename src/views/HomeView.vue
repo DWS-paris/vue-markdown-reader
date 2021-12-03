@@ -6,7 +6,7 @@ Define template (Vue - MVC)
 		class="home-view-component"
 	>
         <h2>Hello stranger!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rerum enim et cumque quia laborum quos eius, odit amet aut facere molestias minima aliquid consectetur voluptatum atque, sint reiciendis! Ratione?</p>
+        <p>Use this amazing application ton convert Markdown to HTML</p>
 
 		<ListMarkdown />
 	</div>
