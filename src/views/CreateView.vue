@@ -56,7 +56,11 @@ Define script (Controller - MVC)
         created(){
             this.$store.subscribe((mutations, state) => {
 				if( mutations.type === "ADDMARKDOWN" ){
-					this.cmpFormData = undefined;
+                    // Reset form data
+					this.cmpFormData = {
+                        title: undefined,
+                        identifyer: undefined,
+                    };
 				}
 			})
         },

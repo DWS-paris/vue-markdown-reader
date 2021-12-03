@@ -16,7 +16,7 @@ Define template (Vue - MVC)
                 <input 
                     type="text" name="title" id="title" 
                     required minlength="5" placeholder="Min. 5 caractères"
-                    v-model="cmpTitle"
+                    v-model="cmpFormData.title"
                 >
             </div>
             <div>
@@ -24,14 +24,14 @@ Define template (Vue - MVC)
                 <input 
                     type="text" name="identifyer" id="identifyer" 
                     required minlength="5" placeholder="Min. 5 caractères"
-                    v-model="cmpIdentifyer"
+                    v-model="cmpFormData.identifyer"
                 >
             </div>
 
             <!-- Use cmpFormData for validation -->
             <button 
                 type="submit"
-                :disabled="cmpTitle === undefined || cmpIdentifyer === undefined"
+                :disabled="cmpFormData.title === undefined || cmpFormData.identifyer === undefined"
             >
                 Ajouter
             </button>
@@ -60,17 +60,10 @@ Define script (Controller - MVC)
 
         //=> Used to manage value from parent component
         computed: {
-            cmpTitle: function(){
-                if( this.content && this.content.title ){
-                    return this.content.title;
+            cmpFormData: function(){
+                if( this.content ){
+                    return this.content;
                 }
-                else{ return null }
-            },
-            cmpIdentifyer: function(){
-                if( this.content && this.content.identifyer ){
-                    return this.content.identifyer;
-                }
-                else{ return null }
             },
         },
 

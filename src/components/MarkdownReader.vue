@@ -7,6 +7,7 @@ Define template (Vue - MVC)
 	>
         <div 
             class="html-container"
+            v-if="cmpMarkdown"
             v-html="$md.render(cmpMarkdown)"
         />
 	</div>
@@ -24,7 +25,7 @@ Define script (Controller - MVC)
         //=> Used to import values from parent component
         props: {
             content: {
-                type: Object,
+                type: String,
                 required: true,
                 default: () => {
                     return undefined

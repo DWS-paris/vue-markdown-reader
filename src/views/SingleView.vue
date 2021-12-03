@@ -6,6 +6,7 @@ Define template (Vue - MVC)
 		class="single-view-component"
 	>
         <MarkdownReader 
+            v-if="cmpMarkdown"
             :content="cmpMarkdown"
         />
 	</div>
