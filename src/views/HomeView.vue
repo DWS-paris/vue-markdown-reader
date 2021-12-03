@@ -25,9 +25,7 @@ Define script (Controller - MVC)
 
         data(){
             //=> Used to inject values within the component
-            return{
-
-            }
+            return{}
         },
         //=> Used to inject methods within the component
         methods: { },
