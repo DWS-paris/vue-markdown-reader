@@ -44,7 +44,6 @@ Une bonne session de cours doit être dynamique pour être constructive à la fo
 
 <br><br>
 ---
-<br><br>
 
 ## Utilisation de ce répertoire
 
