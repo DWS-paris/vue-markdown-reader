@@ -11,13 +11,7 @@ export default {
                 value: 'Add markdown',
             }
         ],
-        markdownList: [
-            {
-                name: 'SingleView',
-                id: 'r1gvB-xAd',
-                value: 'Développer une application VueJS',
-            },
-        ],
+        markdownList: [],
 
         // Define dynamic states: each state is a subjet to subscribe
         singleMd: undefined,

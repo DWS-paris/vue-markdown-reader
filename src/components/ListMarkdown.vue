@@ -6,7 +6,7 @@ Define template (Vue - MVC)
 		class="list-markdown-component"
 	>
         <h3>Liste des markdown disponibles</h3>
-        <ul>
+        <ul v-if="markdownList.length > 0">
             <!-- Generate loop -->
             <li 
                 v-for="(item, idx) in markdownList" 
