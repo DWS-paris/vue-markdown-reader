@@ -6,6 +6,8 @@
 
 > &copy; [Julien Noyer](https://www.linkedin.com/in/julien-n-21219b28/) - All rights reserved for educational purposes only
 
+<br>
+
 ## Présentation du projet
 
 Créer une application capable de stocker et d'afficher des fichiers markdown et de les convertir en HTML pour les afficher dans une vue.
