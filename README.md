@@ -42,9 +42,9 @@ Une bonne session de cours doit être dynamique pour être constructive à la fo
 - Configurer l'application comme une PWA (https://cli.vuejs.org/core-plugins/pwa.html)
 - Développer une API pour gérer les markdonw (https://dwsapp.io/tuto/HkLpPSPVd)
 
-<br>
+<br><br><br>
 ---
-<br>
+<br><br><br>
 
 ## Utilisation de ce répertoire
 
