@@ -18,6 +18,8 @@ L'application est décomposée en 3 parties :
 
 L'application doit être structurée avec une navigation et un footer, tout le contenu de l'application doit s'afficher dans une balise main.
 
+<br>
+
 ## Définition du repo
 
 Ce projet a été créé dans le cadre d'une session de cours pour des étudiants d'une école parisienne, l'objectif de cette session était de reprendre les notions de base de création d'une application Web avec un frameworks, en l'occurence Vue.js. Cette application présente déjà des fonctionnalités qui peuvent être testées et améliorées, pour constituer un code de départ pour développer une application avec Vue.js. Les fonctionnalités développées sont les suivantes :
@@ -31,6 +33,8 @@ Ce projet a été créé dans le cadre d'une session de cours pour des étudiant
 - Afficher la liste des markdowns dans HomeView
 - Gérer les liens vers SingleView
 - Depuis SingleView charger le contenu d'un markdown
+
+<br>
 
 ### Aller plus loin avec ce répertoire
 
@@ -58,6 +62,8 @@ yarn global add @vue/cli
 
 > Vérifiez ensuite votre installation avec la commande `vue --version`.
 
+<br>
+
 Une fois que votre machine est configurée avec [Vue CLI](https://cli.vuejs.org), vous devez installer les dépendances avec la commande `npm i` qui se charge de construire le dossier `node_modules` contenant les modules de l'application.
 
 Cette application utilise la plateforme [hackmd.io](https://hackmd.io) pour stocker les fichiers markdown dont l'URL est inscrite dans un fichier de configuration. Le fichier `.env.dist` présente le modèle à utiliser pour créer votre fichier d'environnement, vous devez donc le dupliquer pour créer un fichier `.env` dont le contenu sera : 
@@ -67,6 +73,8 @@ VUE_APP_MK_ORIGIN=<URL-HACKMD>
 ```
 
 > Vous pouvez utiliser un autre système mais vous devrez adapter votre variable d'environnement.
+
+<br>
 
 Votre dossier local ainsi configuré, vous pouvez lancer l'application avec la commande :
 
