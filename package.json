@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "markdown-it": "^12.2.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",

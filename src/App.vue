@@ -1,28 +1,60 @@
+<!-- 
+Define template (Vue - MVC)
+-->
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div id="app">
+		<header>
+			<!-- Inject value in child component has property -->
+			<AppHeader 
+				:content="headerTitle"
+			/>
+		</header>
+
+		<main>
+			<!-- Add router directive -->
+			<router-view :key="$route.fullPath" />
+    	</main>
+		<header>
+			<AppFooter />
+		</header>
+	</div>
 </template>
 
+<!-- 
+Define script (Controller - MVC)
+-->
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+	// Import child components
+	import AppHeader from "./components/AppHeader.vue";
+	import AppFooter from "./components/AppFooter.vue";
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+		//=> Component identifier
+        name: 'App',
+
+        //=> Add child component
+		components: { 
+			AppHeader, 
+			AppFooter ,
+		},
+
+		//=> Used to inject values within the component
+        data(){
+            return{
+				headerTitle: `Vue Markdown Reader`
+            }
+        },
+		
+        //=> Used to inject methods within the component
+        methods: { },
+
+        //=> Component hooks https://bit.ly/31mmkxq (eq. event for component)
+        created(){},
+        mounted(){},
+    }
 </script>
-
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#app{
+	padding: 5rem;
 }
 </style>
