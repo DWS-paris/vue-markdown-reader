@@ -43,7 +43,6 @@ Une bonne session de cours doit être dynamique pour être constructive à la fo
 - Développer une API pour gérer les markdonw (https://dwsapp.io/tuto/HkLpPSPVd)
 
 <br><br>
----
 
 ## Utilisation de ce répertoire
 
@@ -75,8 +74,7 @@ Votre dossier local ainsi configuré, vous pouvez lancer l'application avec la c
 npm run serve
 ```
 
-<br><br>
----
+<br>
 
 ### Support de cours 
 
