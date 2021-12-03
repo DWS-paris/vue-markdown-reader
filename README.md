@@ -42,9 +42,9 @@ Une bonne session de cours doit être dynamique pour être constructive à la fo
 - Configurer l'application comme une PWA (https://cli.vuejs.org/core-plugins/pwa.html)
 - Développer une API pour gérer les markdonw (https://dwsapp.io/tuto/HkLpPSPVd)
 
-<br><br><br>
+<br><br>
 ---
-<br><br><br>
+<br><br>
 
 ## Utilisation de ce répertoire
 
@@ -75,3 +75,11 @@ Votre dossier local ainsi configuré, vous pouvez lancer l'application avec la c
 ```bash
 npm run serve
 ```
+
+<br><br>
+---
+
+### Support de cours 
+
+- **Application native, hybride, ça sera tout ?** https://dwsapp.io/tuto/r1pYVSv4_
+- **Développer une application Vue.js** https://dwsapp.io/tuto/r1gvB-xAd
